@@ -3,10 +3,12 @@ import HeroMarqueeCircle from "../MiniComponents/HeroMarqueeCircle";
 import HeroMarqueeOval from "../MiniComponents/HeroMarqueeOval";
 import Marquee from "react-fast-marquee";
 
+import cir1 from "@/public/Images/cir-1.jpg"
+
 export default function HeroMarquee() {
   return (
     <Marquee className="flex" gradient={true} gradientColor="black">
-      <HeroMarqueeCircle img={"/images/cir-1.jpg"} bgColor={"#a66b4a"} />
+      <HeroMarqueeCircle img={cir1} bgColor={"#a66b4a"} />
       <HeroMarqueeOval img={"/images/mar-1.jpg"} />
       <HeroMarqueeCircle img={"/images/cir-2.jpg"} bgColor={"#3d3b88"} />
       <HeroMarqueeOval img={"/images/mar-2.jpg"} />
