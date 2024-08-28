@@ -11,7 +11,7 @@ export default function HeroPara() {
         natus quis, quaerat, nam consectetur nisi unde illum velit, odit error
         Quod.
       </p>
-      <div className="flex gap-5 ">
+      <div className="flex gap-5 pt-5 md:pt-0 ">
       <Button   >Try for free</Button>
       <Button variant="customBlack">Compare</Button>
       </div>
