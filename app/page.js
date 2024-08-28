@@ -6,16 +6,19 @@ import HeroMarquee from "./Components/HeroPageComponents/HeroMarquee";
 
 export default function Home() {
   return (
-    <div className="mx-20 flex flex-col ">
-      <div className="flex  h-[50vh] items-center ">
+    <div className=" flex w-full flex-col ">
+      <div className="flex   md:h-[50vh] w-full justify-evenly  items-center flex-wrap ">
         {" "}
         <HeroHeading />
         <HeroPara />
         <HeroImage />
       </div>
 
-      <div>
-        <HeroMarquee />
+      <div className=" w-full justify-center flex">
+        <div className="md:w-[90%] w-[100%] py-20 md:py-0">
+          {" "}
+          <HeroMarquee />
+        </div>
       </div>
     </div>
   );

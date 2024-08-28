@@ -11,13 +11,13 @@ export default function Navbar() {
       className={`flex justify-between mx-10 h-[100px] gap-10 items-center text-white ${poppins.className}
        `}
     >
-      <div className="w-60 gap-2 items-center flex">
+      <div className="md:w-60 gap-2 items-center flex">
         <AiFillDribbbleCircle />
 
         <h1>Fucce</h1>
       </div>
       <div className="w-full h-[2px] bg-white"></div>
-      <div className="gap-5 flex ">
+      <div className="gap-5 hidden md:flex ">
         <Link href={"/"} className="group relative">
           Product
           <span className="absolute left-1/2 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
@@ -39,9 +39,9 @@ export default function Navbar() {
           <span className="absolute left-1/2 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 ease-in-out group-hover:w-full group-hover:left-0"></span>
         </Link>
       </div>
-      <div className="w-full h-[2px] bg-white"></div>
+      <div className="w-full hidden md:flex h-[2px] bg-white"></div>
 
-      <div className="w-60">
+      <div className=" w-80 flex justify-center">
         <Link href={"/"}>Log in</Link>
       </div>
     </div>

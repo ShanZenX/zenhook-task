@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 export default function HeroImage() {
   return (
-    <div className="w-[25%] flex flex-col justify-center items-center ml-10" >
+    <div className="md:w-[25%] w-[100%] flex flex-col justify-center items-center ml-10 pr-10" >
       <div className="flex">
         <Image
           src="/Images/img-1.jpg"
